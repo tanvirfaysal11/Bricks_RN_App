@@ -229,7 +229,7 @@ export default () => {
             borderRightWidth: 0,
           }
         }}
-        sceneContainerStyle={{ backgroundColor: 'transparent' }}
+        // sceneContainerStyle={{ backgroundColor: 'transparent' }}
         drawerContent={(props) => <DrawerContent {...props} />}>
         <Drawer.Screen name="Screens" component={ScreensStack} />
       </Drawer.Navigator>

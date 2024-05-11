@@ -1,19 +1,19 @@
 {
   "expo": {
-    "name": "rn-soft-ui-kit-free",
-    "slug": "rn-soft-ui-kit-free",
-    "description": "React Native - Soft UI Kit - Free",
+    "name": "OAB",
+    "slug": "oab",
+    "description": "OAB App",
     "primaryColor": "#CB0C9F",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#CB0C9F"
+      "backgroundColor": "#0D73B1"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2983179f-b0a6-4302-8199-af06f73d704e"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,13 +25,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#CB0C9F"
-      }
+      },
+      "package": "com.tanvirfaysal11.rnsoftuikitfree"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-localization"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2983179f-b0a6-4302-8199-af06f73d704e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }
